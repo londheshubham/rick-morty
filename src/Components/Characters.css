@@ -1,0 +1,54 @@
+.fondo {
+    background-image: url("https://i.postimg.cc/8cZc118n/Rick-and-Morty-pp.jpg;");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: 1930px;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.buscador {
+    position: absolute;
+    right: 0px;
+}
+
+
+.card-container{
+    margin: 60px 40px 40px 40px;  
+}
+
+.head-container{
+    background-color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .buscador{
+        right: 32%;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .buscador{
+        right: 25%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .buscador{
+        right: 17%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card-container{
+        margin: 40px 10px 20px 10px;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    .card-container{
+        margin: 40px 0 10px 7px;
+        width: 95%;
+    }
+}
